@@ -1,0 +1,151 @@
+body {
+    background: url('../img/bg-blue.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* ---- ---- HEADER ---- ----  */
+.cara {
+    border-radius: 100%;
+    height: 50px;
+    width: 45px;
+}
+
+.nombre {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.links > a{
+    font-size: 25px;
+    margin-left: 25px;
+    color: #fff !important;
+    padding: 8px 20px !important;
+    border-radius: 2px;
+}
+
+.cv:hover {
+    background: #fff;
+    color: #000 !important;
+}
+
+.github:hover {
+    background: #000000;
+}
+
+.linkedin:hover {
+    background: #0077b5;
+}
+
+.email:hover {
+    background: #00a1f1;
+}
+
+.whatsapp:hover {
+    background: #25d366;
+}
+
+
+/* ---- ---- MAIN ---- ---- */
+
+.titulo {
+    color: #fff;
+    font-weight: bold;
+    background: rgba(0,0,0,.3);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.subtitulo {
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.contenedor-web .thumb img {
+    border-radius: 8px;
+    transition: all .5s ease;
+    opacity: 0.7;
+}
+
+.contenedor-web .thumb img:hover {
+    opacity: 1;
+}
+
+.titulo-web {
+    margin-top: 10px;
+    margin-bottom: 40px;
+    padding: 5px;
+    border-radius: 5px;
+    background: rgba(255,255,255,.5);
+    font-weight: bold;
+}
+
+.nota {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+
+
+
+
+/* ---- ---- FOOTER ---- ---- */
+
+footer {
+    background: rgba(0,0,0,.5);
+}
+
+footer .github:hover {
+    background: #fff;
+    color: #000 !important;
+}
+
+
+
+/* ---- ---- MEDIAQUERIES ---- ---- */
+
+@media (max-width: 992px) {
+    .contenedor-web .thumb img {
+        opacity: 1;
+    }
+}
+
+@media (max-width: 500px) {
+    .titulo {
+        color: #fff;
+        font-weight: bold;
+        background: rgba(0,0,0,.3);
+        padding: 10px;
+        border-radius: 5px;
+        font-size: 20px;
+    }
+    
+    .subtitulo {
+        font-size: 18px;
+    }
+
+    .titulo-web {
+        font-weight: bold;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 380px) {
+    header .navbar-brand {
+        order: 2;
+        width: 100%;
+        margin-top: 20px;
+        justify-content: center;
+    }
+
+    button {
+        margin-left: auto;
+        order: 1;
+    }
+}
+
+
